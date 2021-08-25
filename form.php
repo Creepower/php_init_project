@@ -12,23 +12,23 @@
 <body>
     <div class="main">
         <h2>form</h2>
-        <form class="form">
+        <form class="form" action="action.php" method="post">
             <div class="input username">
                 <label for="username">Username</label>
-                <input type="text" placeholder="Input username" />
+                <input type="text" name="username" placeholder="Input username"/>
             </div>
             <div class="input email">
                 <label for="email">Email</label>
-                <input type="email" placeholder="Input email" />
+                <input type="email" name="email" placeholder="Input email" />
             </div>
             <div class="input password">
                 <label for="password">Password</label>
-                <input type="password" placeholder="Input password" />
+                <input type="password" name="password" placeholder="Input password" />
             </div>
 
 
             <div class="btn">
-                <button>button</button>
+                <button type="submit">button</button>
             </div>
         </form>
     </div>
